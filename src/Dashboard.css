@@ -1,0 +1,39 @@
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+.dashboard img {
+    max-width: 500px;
+    height: 100%;
+    margin: 10px;
+}
+.dashboard h3 {
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    position: relative;
+}
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text {
+
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-size: clamp(3rem, 10vw, 6rem);
+    position: absolute;
+    left: 20px;
+    z-index: 99;
+
+}
+.content {
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    margin: 12px;
+}
